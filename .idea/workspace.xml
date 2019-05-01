@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="118b70c4-d60e-4266-aca5-95cc4ad235ee" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/svg/shape/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/Path.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg/shape/PathOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/PathOp.java" afterDir="false" />
-    </list>
+    <list default="true" id="118b70c4-d60e-4266-aca5-95cc4ad235ee" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +84,8 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="49" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="825" />
   </component>
@@ -97,42 +94,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-              <item name="element" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Assignment4" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Assignment4" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="svg" type="462c0819:PsiDirectoryNode" />
-              <item name="shape" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
@@ -171,16 +133,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556733710382</updated>
-      <workItem from="1556733718849" duration="1989000" />
+      <workItem from="1556733718849" duration="2014000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1989000" />
+    <option name="totallyTimeSpent" value="2014000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
