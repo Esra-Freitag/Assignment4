@@ -14,21 +14,21 @@ public class Ellipse{
             }
         }
         if(expr.contains("cy=")){
-            final Double cyResult=SVGParse.extractDouble(expr,"cy=");
+            final Double cyResult=SVGParser.extractDouble(expr,"cy=");
             if(cyResult!= null){
                 cy=result.doubleValue();
             }
         }
 
         if(expr.contains("rx=")){
-            final Double rxResult= SVGParse.extractDouble(expr,"rx=");
+            final Double rxResult= SVGParser.extractDouble(expr,"rx=");
             if(rxResult != null){
                 rx=result.doubleValue();
             }
         }
 
         if(expr.contains("ry=")){
-            final Double ryResult= SVGParse.extractDouble(expr,"ry=");
+            final Double ryResult= SVGParser.extractDouble(expr,"ry=");
             if(ryResult != null){
                 ry=result.doubleValue();
             }
