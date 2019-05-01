@@ -26,8 +26,7 @@ public class Circle{
             }
         }
     }
-    @Override
-    public String toString(){
+    public String load(){
         String characteristics="circle: cx="+ cx + " cy=" +cy + " r="+r;
         return characteristics;
     }
