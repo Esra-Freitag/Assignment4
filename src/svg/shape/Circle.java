@@ -1,30 +1,37 @@
-public class Circle{
+public class Circle extends Shape{
     private Double cx;
     private Double cy;
     private Double r;
 
     public Circle(){}
     
-    public void load(String expr){
+    public boolean load(String expr){
         if(expr.contains("cx=")){
-            final Double cxResult= SVGParser.extractDouble(expr,"cx=");
-            if(cxResult!= null){
+            final Double result= SVGParser.extractDouble(expr,"cx=");
+            if(result!= null){
                 cx=result.doubleValue();
+            }else{
+                return false;
             }
         }
         if(expr.contains("cy=")){
-            final Double cyResult=SVGParse.extractDouble(expr,"cy=");
-            if(cyResult!= null){
+            final Double result=SVGParse.extractDouble(expr,"cy=");
+            if(result!= null){
                 cy=result.doubleValue();
+            }else{
+                return false;
             }
         }
 
         if(expr.contains("r=")){
-            final Double rResult= SVGParse.extractDouble(expr,"r=");
-            if(rResult != null){
+            final Double result= SVGParse.extractDouble(expr,"r=");
+            if(result != null){
                 r=result.doubleValue();
+            }else{
+                return false;
             }
         }
+        return true;
     }
     @Override
     public String toString(){
