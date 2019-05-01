@@ -36,7 +36,7 @@ public class Ellipse{
         
     }
    @Override
-   public String load(){
+   public String label(){
         String characteristics="ellipse: cx="+ cx + " cy=" +cy + " rx="+rx +" ry=" +ry;
         return characteristics;
     }
