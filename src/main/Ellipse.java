@@ -6,6 +6,7 @@ public class Ellipse{
 
     public Ellipse(){}
     
+    @Override
     public void load(String expr){
         if(expr.contains("cx=")){
             final Double cxResult= SVGParser.extractDouble(expr,"cx=");
