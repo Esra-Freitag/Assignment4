@@ -26,7 +26,7 @@ public class Circle{
             }
         }
     }
-    public String load(){
+    public String label(){
         String characteristics="circle: cx="+ cx + " cy=" +cy + " r="+r;
         return characteristics;
     }
