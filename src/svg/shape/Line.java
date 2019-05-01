@@ -1,14 +1,16 @@
-public class Line {
+public class Line extends Shape{
 	private Double x1, y1, 
 					x2, y2;
 	
 	@Override
-	public void load(String expr) {
+	public boolean load(String expr) {
 		if (expr.contains(" x1="))
 		{
 			 	 final Double result = SVGParser.extractDouble(expr, " x1=");
 			 	 if (result != null)
 			 	 	 x1 = result.doubleValue();
+		} else {
+			return false;
 		}
 		
 		if (expr.contains(" y1="))
@@ -16,6 +18,8 @@ public class Line {
 			 	 final Double result = SVGParser.extractDouble(expr, " y1=");
 			 	 if (result != null)
 			 	 	 y1 = result.doubleValue();
+		} else {
+			return false;
 		}
 		
 		if (expr.contains(" x2="))
@@ -23,6 +27,8 @@ public class Line {
 			 	 final Double result = SVGParser.extractDouble(expr, " x2=");
 			 	 if (result != null)
 			 	 	 x2 = result.doubleValue();
+		} else {
+			return false;
 		}
 		
 		if (expr.contains(" y2="))
@@ -30,6 +36,8 @@ public class Line {
 			 	 final Double result = SVGParser.extractDouble(expr, " y2=");
 			 	 if (result != null)
 			 	 	 y2 = result.doubleValue();
+		} else {
+			return false;
 		}
 	}
 	
