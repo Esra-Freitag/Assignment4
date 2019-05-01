@@ -46,8 +46,8 @@ public class Path extends Shape {
 		objectsOfPathOp.add(PathOp.newInstance('Q'));
 		PathOp.load(str);
 	}
-    if(str.contains("z")) {
-		objectsOfPathOp.add(PathOp.newInstance('z'));
+    if(str.contains("Z")) {
+		objectsOfPathOp.add(PathOp.newInstance('Z'));
 		PathOp.load(str);
 }
 			

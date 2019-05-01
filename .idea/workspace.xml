@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="118b70c4-d60e-4266-aca5-95cc4ad235ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assignment4.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg/element/Element.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/element/Element.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg/shape/Close.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/Close.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg/shape/MoveTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/MoveTo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/svg/shape/Path.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/Path.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/svg/shape/PathOp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/PathOp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/svg/shape/QuadTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/svg/shape/QuadTo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/bin/" />
@@ -26,11 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/svg/shape/Path.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+            <state relative-caret-position="735">
+              <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
             </state>
           </provider>
         </entry>
@@ -38,8 +30,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/svg/shape/PathOp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="360">
+              <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
               <folding>
                 <element signature="e#427#428#0" expanded="true" />
                 <element signature="e#455#456#0" expanded="true" />
@@ -66,7 +58,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/svg/shape/Close.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
@@ -87,11 +79,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/svg/shape/PathOp.java" />
         <option value="$PROJECT_DIR$/src/svg/shape/MoveTo.java" />
         <option value="$PROJECT_DIR$/src/svg/shape/QuadTo.java" />
         <option value="$PROJECT_DIR$/src/svg/shape/Close.java" />
         <option value="$PROJECT_DIR$/src/svg/shape/Path.java" />
+        <option value="$PROJECT_DIR$/src/svg/shape/PathOp.java" />
       </list>
     </option>
   </component>
@@ -179,15 +171,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556733710382</updated>
-      <workItem from="1556733718849" duration="1845000" />
+      <workItem from="1556733718849" duration="1989000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1845000" />
+    <option name="totallyTimeSpent" value="1989000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -260,21 +253,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg/shape/Close.java">
+    <entry file="file://$PROJECT_DIR$/src/svg/shape/Path.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#97#98#0" expanded="true" />
-            <element signature="e#109#110#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="735">
+          <caret line="49" column="49" selection-start-line="49" selection-start-column="49" selection-end-line="49" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg/shape/QuadTo.java">
+    <entry file="file://$PROJECT_DIR$/src/svg/shape/PathOp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="597">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="360">
+          <caret line="24" column="28" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+          <folding>
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -285,21 +278,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg/shape/PathOp.java">
+    <entry file="file://$PROJECT_DIR$/src/svg/shape/QuadTo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-          <folding>
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="597">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/svg/shape/Path.java">
+    <entry file="file://$PROJECT_DIR$/src/svg/shape/Close.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#97#98#0" expanded="true" />
+            <element signature="e#109#110#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

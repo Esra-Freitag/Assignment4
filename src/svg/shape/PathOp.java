@@ -22,7 +22,7 @@ protected boolean absolute;
         {
             QuadTo.load(expr);
         }
-        if (expr.contains("z"))
+        if (expr.contains("Z"))
         {
             Close.load(expr);
         }
