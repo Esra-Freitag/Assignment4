@@ -13,14 +13,14 @@ public class Circle{
             }
         }
         if(expr.contains("cy=")){
-            final Double cyResult=SVGParse.extractDouble(expr,"cy=");
+            final Double cyResult=SVGParser.extractDouble(expr,"cy=");
             if(cyResult!= null){
                 cy=result.doubleValue();
             }
         }
 
         if(expr.contains("r=")){
-            final Double rResult= SVGParse.extractDouble(expr,"r=");
+            final Double rResult= SVGParser.extractDouble(expr,"r=");
             if(rResult != null){
                 r=result.doubleValue();
             }
