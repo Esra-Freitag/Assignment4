@@ -2,11 +2,12 @@ package main;
 
 public class Point2D extends Shape {
 
-    private static String label = "point2D";
+
     private double x;
     private double y;
 
     public Point2D(double x, double y){
+        super("point2d");
         this.x = x;
         this.y = y;
     }
@@ -28,6 +29,6 @@ public class Point2D extends Shape {
     }
 
     public String toString(){
-        return "(" + Integer.toString(x) + ", " + Integer.toString(y) + ")";
+        return "(" + Double.toString(x) + ", " + Double.toString(y) + ")";
     }
 }
