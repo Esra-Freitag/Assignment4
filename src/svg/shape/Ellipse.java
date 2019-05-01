@@ -6,17 +6,21 @@ public class Ellipse{
 
     public Ellipse(){}
     
-    public void load(String expr){
+    public boolean load(String expr){
         if(expr.contains("cx=")){
             final Double cxResult= SVGParser.extractDouble(expr,"cx=");
             if(cxResult!= null){
                 cx=result.doubleValue();
+            }else{
+                return false;
             }
         }
         if(expr.contains("cy=")){
             final Double cyResult=SVGParse.extractDouble(expr,"cy=");
             if(cyResult!= null){
                 cy=result.doubleValue();
+            }else{
+                return false;
             }
         }
 
@@ -24,6 +28,8 @@ public class Ellipse{
             final Double rxResult= SVGParse.extractDouble(expr,"rx=");
             if(rxResult != null){
                 rx=result.doubleValue();
+            }else{
+                return false;
             }
         }
 
@@ -31,8 +37,11 @@ public class Ellipse{
             final Double ryResult= SVGParse.extractDouble(expr,"ry=");
             if(ryResult != null){
                 ry=result.doubleValue();
+            }else{
+                return false;
             }
         }
+        return true;
         
     }
    @Override
