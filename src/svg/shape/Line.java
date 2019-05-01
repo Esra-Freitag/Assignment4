@@ -1,6 +1,6 @@
 public class Line extends Shape{
 	private Double x1, y1, 
-					x2, y2;
+			x2, y2;
 	
 	@Override
 	public boolean load(String expr) {
