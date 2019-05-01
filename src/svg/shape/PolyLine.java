@@ -1,3 +1,4 @@
+package svg.shape;
 public class PolyLine extends Shape {
 	private List<Point2D> points;
 	

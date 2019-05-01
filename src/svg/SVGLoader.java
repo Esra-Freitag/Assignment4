@@ -1,8 +1,6 @@
-package main;
+package svg;
 
 import java.io.IOException;
-
-import svg.SVGParser;
 
 //-----------------------------------------------------------------------------
 

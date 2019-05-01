@@ -1,4 +1,4 @@
-package main;
+package svg.shape;
 
 public class Point2D extends Shape {
 
