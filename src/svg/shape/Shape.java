@@ -6,4 +6,5 @@ public abstract class Shape extends BaseElement {
 		super(label);
 	}
 	
+	public boolean load(String expr);
 }
