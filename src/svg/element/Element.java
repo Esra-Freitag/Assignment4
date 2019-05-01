@@ -22,7 +22,7 @@ public interface Element
 	/**
 	 * @return New element of own type.
 	 */
-	public Element newInstance();
+	public static Element newInstance();
 	
 	/**
 	 * Load this shape's data from an SVG expression.

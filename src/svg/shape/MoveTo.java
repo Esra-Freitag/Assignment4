@@ -1,15 +1,15 @@
 package svg.shape;
-
 import svg.SVGParser;
-import svg.element.PathOp;
 
 public class MoveTo extends PathOp {
 	private  static double x;
 	private static  double y;
+
 	public static void newInstance(String str) {
 		new MoveTo();
 		load(str);
 	}
+
 	public static boolean load(final String expr) {
 		if (expr.contains(" x="))
 		{

@@ -2,25 +2,25 @@ package svg.shape;
 
 import java.util.ArrayList;
 
-import svg.element.Element;
-
 
 public class Path extends Shape {
-    private ArrayList<PathOp> pathOperation ;
-	public Path(String label) {
+
+    private ArrayList<PathOp> objectsOfPathOp ;
+    private String expr;
+
+	public Path(String label, String expr) {
+
 		super(label);
-		 pathOperation = new ArrayList<PathOp>();
+		this.expr=expr;
+		objectsOfPathOp = new ArrayList<PathOp>();
 	
 	}
+
 	@Override
-	public Element newInstance() {
-		return new Path("path");
-		
-	}
-	@Override
-	public boolean load(final String expr) {
+	public boolean load(String expr) {
 		String str="";
-		int j=0; int k=0;
+		int j=0;
+		int k=0;
 		
 		int len=expr.length();
 		char c;
@@ -33,21 +33,23 @@ public class Path extends Shape {
 			if(c=='z') {
 				 j=i+1;
 			}
-			str=expr.substring(k,j);			
 		}
-		
-	if(str.contains("M" )){
-		MoveTo.newInstance(str);
-		
-	}
-if(str.contains("Q")){
-	QuadTo.newInstance(str);
-	}
-if(str.contains("z")) {
-	Close.newInstance(str);
-}
 
-			
+		str=expr.substring(k,j);
+		
+	if(str.contains("M")){
+		objectsOfPathOp.add(PathOp.newInstance('M'));
+		PathOp.load(str);
+	}
+
+    if(str.contains("Q")){
+		objectsOfPathOp.add(PathOp.newInstance('Q'));
+		PathOp.load(str);
+	}
+    if(str.contains("z")) {
+		objectsOfPathOp.add(PathOp.newInstance('z'));
+		PathOp.load(str);
+}
 			
 	/*f (expr.contains("d="))
 		{//m,q,z
