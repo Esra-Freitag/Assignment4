@@ -1,3 +1,6 @@
+import svg.SVGParser;
+import svg.element.Element;
+
 public class Circle extends Shape{
     private Double cx;
     private Double cy;
@@ -15,7 +18,7 @@ public class Circle extends Shape{
             }
         }
         if(expr.contains("cy=")){
-            final Double result=SVGParse.extractDouble(expr,"cy=");
+            final Double result=SVGParser.extractDouble(expr,"cy=");
             if(result!= null){
                 cy=result.doubleValue();
             }else{
@@ -24,7 +27,7 @@ public class Circle extends Shape{
         }
 
         if(expr.contains("r=")){
-            final Double result= SVGParse.extractDouble(expr,"r=");
+            final Double result= SVGParser.extractDouble(expr,"r=");
             if(result != null){
                 r=result.doubleValue();
             }else{
@@ -38,5 +41,6 @@ public class Circle extends Shape{
         String characteristics="circle: cx="+ cx + " cy=" +cy + " r="+r;
         return characteristics;
     }
+
     
 }
