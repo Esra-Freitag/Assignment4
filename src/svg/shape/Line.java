@@ -42,7 +42,7 @@ public class Line extends Shape{
 	}
 	
 	@Override
-	public String toString() {
+	public String label() {
 		String characteristics = "line: x1=" + x1 + " y1=" + y1 + 
 										" x1=" + x2 + " y2=" + y2;
 		return characteristics;

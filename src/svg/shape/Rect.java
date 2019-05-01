@@ -60,7 +60,7 @@ public class Rect extends Shape{
 	}
 	
 	@Override
-	public String toString() {
+	public String label() {
 		String characteristics = "rect: x=" + x +
 								" y=" + y + 
 								" rx=" + rx + 
